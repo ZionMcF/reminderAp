@@ -84,4 +84,4 @@ The app will connect to parse to allow users to login to an account where they c
   - (Update/PUT) Change contents of future lists
   - (Create/POST) Make new list
 - New list screen
-  - (Create/POST) Make new list
+  - (Create/POST) Make new list to be displayed on home screen
