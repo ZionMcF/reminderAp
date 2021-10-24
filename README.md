@@ -77,7 +77,11 @@ The app will connect to parse to allow users to login to an account where they c
    | Date        | DateTime      | date when list is set to remind user|
    
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
-- 
+- Login
+  - (Read/GET) Read input to see if it matches login credentials
+- Home Screen
+  - (Read/GET) Display lists for current and future dates
+  - (Update/PUT) Change contents of future lists
+  - (Create/POST) Make new list
+- New list screen
+  - (Create/POST) Make new list
