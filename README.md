@@ -71,9 +71,11 @@ The app will connect to parse to allow users to login to an account where they c
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | List         | String    | unique id for lists| 
-   | Lister      | Pointer to user   | list author |
-   | date        | Number      | date when list is set to remind user|
+   | List         | Array    | list of objects set by user | 
+   | Username      | Pointer to user   | list author |
+   | Password     | String    | unique code to allow user to access account |
+   | Date        | DateTime      | date when list is set to remind user|
+   
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
