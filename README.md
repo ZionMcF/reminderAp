@@ -64,9 +64,16 @@ The app will connect to parse to allow users to login to an account where they c
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+###List
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | List         | String    | unique id for lists| 
+   | Lister      | Pointer to user   | list author |
+   | date        | Number      | date when list is set to remind user|
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
